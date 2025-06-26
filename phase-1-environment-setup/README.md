@@ -10,7 +10,7 @@ This week focused on preparing the full development and security environment to 
 |   Azure CLI                       |   Manage Azure resources              |  ![Terraform](./screenshots/azure-cli-version.png)
 |   GCP CLI (gcloud)                |   Manage GCP resources                |  ![Terraform](./screenshots/gcloud-version.png)
 |   Git                             |   Source control + GitHub integration |  ![Terraform](./screenshots/gcloud-version.png)
-|   Visual Studio Code              |   Code editing and project structure  |   v1.101.1
+|   Visual Studio Code              |   Code editing and project structure  |  ![Terraform](./screenshots/visual-studio-code-version.png)
 |   NordPass                        |   Secrets & credentials management    |  ![Terraform](./screenshots/gcloud-version.png)
 
 
