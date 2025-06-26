@@ -12,7 +12,7 @@ This week focused on preparing the full development and security environment to 
 |   Git                             |   Source control + GitHub integration |   v2.50.0.windows.1
 |   Visual Studio Code              |   Code editing and project structure  |   v1.101.1
 |   NordPass                        |   Secrets & credentials management    | `NordPass Version`
-|
+
 
 ## ☁️ Cloud Account Setup
 
