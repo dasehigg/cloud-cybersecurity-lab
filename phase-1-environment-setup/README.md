@@ -1,10 +1,10 @@
 # Phase 1: Environment Setup & Lab Preparation
 
-This week focused on preparing the full development and security environment to support hands-on cloud cybersecurity projects. The goal was to ensure all necessary tools, accounts, and structure were in place for a smooth start to the lab journey.
+This phase focuses on preparing the full development and security environment to support hands-on cloud cybersecurity projects. The goal was to ensure all necessary tools, accounts, and structure were in place for a smooth start to the lab journey.
 
 ## ✅ Tools Installed & Verified
 
-|   Tools                           | Purpose                               | Version Verified
+|   Tools                           | Purpose                               | Version Verification
 |-----------------------------------|---------------------------------------|-----------------------------------
 |   Terraform CLI                   |   Infrastructure as Code              |  ![Terraform](./screenshots/terraform-version.png)
 |   Azure CLI                       |   Manage Azure resources              |  ![Terraform](./screenshots/azure-cli-version.png)
@@ -14,22 +14,9 @@ This week focused on preparing the full development and security environment to 
 |   NordPass                        |   Secrets & credentials management    |  ![Terraform](./screenshots/gcloud-version.png)
 
 
-## 💾 Version Output (Sample)
-```bash
-$ terraform -v
-Terraform v1.12.2
-
-$ az version
-}
-    "azure-cli": "2.74.0",
-    ...
-}
-
-$ gcloud --version
-Google Cloud SDK 527.0.0
-...
-
-$ git --version
-git version 2.50.0.windows.1
-```
-
+## ☁️ Cloud Account Setup
+| Task                                                          | Status   | Screenshot
+|---------------------------------------------------------------|----------|-----------------------------------------------------
+| Azure account created and CLI authenticated                   |   ✅    | ![az-login](./screenshots/azure-login.png)
+| GCP account created and gcloud initialized                    |   ✅    | ![gcloud auth login](./screenshots/gcp-login.png)
+| NordPass configured to store cloud secrets securely           |   ✅    | *(Not applicable / Skipped for security)*
