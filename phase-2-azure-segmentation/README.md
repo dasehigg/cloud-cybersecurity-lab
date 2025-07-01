@@ -9,10 +9,10 @@ This phase focueses on implementing secure network designs in Microsoft Azure us
 Implements a segmented Azure network with multiple subnets, custom NSGs, and traffic control rules to simulate a secure, micro-segmented enterprise network.
 
 - Deploys resource group, virtual network,  and subnet architecture
--  Uses Terraform for reproducibility and automation
+- Uses Terraform for reproducibility and automation
 - Demonstrates security group isolation between workloads
 
-### [`terraform-azure-secure-vnet`](./terraform-azure-secure-vnet/)
+### [`Terraform-azure-secure-vnet`](./terraform-azure-secure-vnet/)
 
 Builds a hardened virtual network following security best practices. Intended as a standalone or reusable VNet module in larger secure cloud environments.
 
