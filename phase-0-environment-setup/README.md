@@ -1,4 +1,4 @@
-# Phase 0: Environment Setup & Lab Preparation
+# 📘 Phase 0: Environment Setup & Lab Preparation
 
 This phase focuses on preparing the full development and security environment to support hands-on cloud cybersecurity projects. The goal was to ensure all necessary tools, accounts, and structure were in place for a smooth start to the lab journey.
 
