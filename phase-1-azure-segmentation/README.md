@@ -1,4 +1,4 @@
-# 📘 Phase 2: Azure Network Security & Segmentation
+# 📘 Phase 1: Azure Network Security & Segmentation
 
 This phase focueses on implementing secure network designs in Microsoft Azure using infrastructure-as-code (Terraform). The goal is to simulate real-world cloud segmentation and network protection practices through hands-on projects.
 
@@ -29,7 +29,7 @@ Builds a hardened virtual network following security best practices. Intended as
 ## 📂 Folder Structure
 
 ```
-phase-2-azure-segmentation/
+phase-1-azure-segmentation/
 │
 ├─── terraform-azure-segmentation-lab/  # Full micro segmentation lab
 │    ├── main.tf
