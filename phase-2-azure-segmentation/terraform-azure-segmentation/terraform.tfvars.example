@@ -1,0 +1,12 @@
+resource_group_name = "rg-segmentation"
+location            = "eastus"
+vnet_name           = "vnet-segmentation"
+address_space       = ["10.0.0.0/16"]
+
+subnets = {
+  web = "10.0.1.0/24"
+  app = "10.0.2.0/24"
+  db  = "10.0.3.0/24"
+}
+
+nsg_names = ["web-nsg", "app-nsg", "db-nsg"]
