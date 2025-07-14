@@ -2,10 +2,16 @@
 
 ### variables.tf
 
-```hcl
-variables "resource_group_name"     { type = string }
-variables "workspace_name"          { type = string }
-variables "location"                { type = string }
-variables "sku"                     { type = string, default = "PerGB2018" }
-variables "retention_days"          { type = number, default = 30 }
-```
+
+variable "resource_group_name" { type = string }
+variable "workspace_name" { type = string }
+variable "location" { type = string }
+variable "sku" {
+  type    = string
+  default = "PerGB2018"
+}
+variable "retention_days" {
+  type    = number
+  default = 30
+}
+
