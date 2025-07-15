@@ -2,7 +2,6 @@
 
 ### main.tf
 
-```hcl
 provider "azurerm" { features = {} }
 
 resource "azurerm_network_security_group" "this" {
@@ -23,4 +22,3 @@ resource "azurerm_network_security_rule" "example" {
     destination_address_prefix          = var.destination_address_prefix
     network_security_group_name         = azurerm_network_security_group.this.name
 }
-```
